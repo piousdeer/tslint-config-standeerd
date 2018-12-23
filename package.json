@@ -1,0 +1,37 @@
+{
+  "name": "tslint-config-standeerd",
+  "version": "1.0.0",
+  "description": "A stricter TSLint config for JavaScript Standard Style",
+  "main": "tslint.js",
+  "files": [
+    "tslint.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "lint": "standard",
+    "prepublishOnly": "npm run lint"
+  },
+  "keywords": [
+    "tslint",
+    "config",
+    "standard",
+    "standardjs",
+    "typescript",
+    "ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/piousdeer/tslint-config-standeerd.git"
+  },
+  "author": "piousdeer",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^12.0.1",
+    "tslint": "^5.12.0",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "tslint-config-standard": "^8.0.1"
+  }
+}

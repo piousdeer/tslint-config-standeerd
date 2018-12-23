@@ -1,0 +1,2 @@
+# tslint-config-standeerd
+My personal TSLint config. It extends [tslint-config-standard](https://github.com/blakeembrey/tslint-config-standard) and enforces some TypeScript-specific rules while keeping the code clean and not too verbose.
