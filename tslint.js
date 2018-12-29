@@ -61,7 +61,7 @@ module.exports = {
     'no-debugger': true,
     'no-duplicate-switch-case': true,
     'no-inferrable-types': true,
-    // 'no-magic-numbers': true,
+    /* 'no-magic-numbers': true, */
     'no-misused-new': true,
     'no-parameter-reassignment': true,
     'no-reference': true,
