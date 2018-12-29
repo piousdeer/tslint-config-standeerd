@@ -3,7 +3,7 @@ module.exports = {
   rules: {
     'adjacent-overload-signatures': true,
     'align': {
-      options: ['parameters', /* 'arguments', */ 'statements', 'members', /* 'elements' */]
+      options: ['parameters', 'statements', 'members']
     },
     'array-type': {
       options: ['array']
@@ -16,10 +16,6 @@ module.exports = {
           'Object',
           'Avoid using the `Object` type. Did you mean `object`?'
         ],
-        /* [
-          'Array',
-          'Avoid using the `Array` type. Prefer a specific array type, like `number[]`.'
-        ], */
         [
           'Function',
           'Avoid using the `Function` type. Prefer a specific function type, like `() => void`.'
@@ -43,13 +39,9 @@ module.exports = {
       ]
     },
     'callable-types': true,
-    /* 'file-name-casing': {
-      options: 'kebab-case'
-    }, */
     'function-constructor': true,
     'import-spacing': true,
     'interface-over-type-literal': true,
-    /* 'member-access': true, */
     'member-ordering': {
       options: {
         order: 'statics-first'
@@ -61,7 +53,6 @@ module.exports = {
     'no-debugger': true,
     'no-duplicate-switch-case': true,
     'no-inferrable-types': true,
-    /* 'no-magic-numbers': true, */
     'no-misused-new': true,
     'no-parameter-reassignment': true,
     'no-reference': true,
