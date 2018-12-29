@@ -3,7 +3,7 @@ module.exports = {
   rules: {
     'adjacent-overload-signatures': true,
     'align': {
-      options: ['parameters', 'arguments', 'statements', 'members', 'elements']
+      options: ['parameters', /* 'arguments', */ 'statements', 'members', 'elements']
     },
     'array-type': {
       options: ['array']
@@ -49,7 +49,7 @@ module.exports = {
     'function-constructor': true,
     'import-spacing': true,
     'interface-over-type-literal': true,
-    'member-access': true,
+    /* 'member-access': true, */
     'member-ordering': {
       options: {
         order: 'statics-first'
