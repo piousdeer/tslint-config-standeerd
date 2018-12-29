@@ -3,7 +3,7 @@ module.exports = {
   rules: {
     'adjacent-overload-signatures': true,
     'align': {
-      options: ['parameters', /* 'arguments', */ 'statements', 'members', 'elements']
+      options: ['parameters', /* 'arguments', */ 'statements', 'members', /* 'elements' */]
     },
     'array-type': {
       options: ['array']
