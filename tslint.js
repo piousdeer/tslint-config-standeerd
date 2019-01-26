@@ -57,7 +57,6 @@ module.exports = {
     'no-parameter-reassignment': true,
     'no-reference': true,
     'no-shadowed-variable': true,
-    'no-string-literal': true,
     'no-unbound-method': true,
     'no-unnecessary-callback-wrapper': true,
     'no-unnecessary-initializer': true,
